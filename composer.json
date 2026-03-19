@@ -1,6 +1,6 @@
 {
     "name": "hexawebsystems/laravel-hexa-package-pexels",
-    "description": "Pexels stock photo API integration for the Hexa Core framework.",
+    "description": "Pexels — stock photo API integration for image search, download, and media library management.",
     "type": "library",
     "license": "proprietary",
     "require": {
