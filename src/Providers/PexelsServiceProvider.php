@@ -9,6 +9,7 @@ class PexelsServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
+        ->mergeConfigFrom(__DIR__ . '/../../config/pexels.php', 'pexels');
         $this->app->singleton(PexelsService::class);
     }
 
