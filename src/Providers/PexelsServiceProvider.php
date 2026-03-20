@@ -46,7 +46,7 @@ class PexelsServiceProvider extends ServiceProvider
         view()->composer('layouts.app', function ($view) {
             if (config('hexa.app_controls_sidebar', false)) return;
             $factory = app('view');
-            $factory->startPush('sidebar-menu');
+            $factory->startPush('sidebar-sandbox');
             echo $factory->make('pexels::partials.sidebar-menu')->render();
             $factory->stopPush();
         });
